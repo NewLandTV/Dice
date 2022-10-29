@@ -60,7 +60,7 @@ void DrawDiceSprite(int number)
 			
 			if (x == 0 || y == 0 || x == CONSOLE_WIDTH - 2 || y == CONSOLE_HEIGHT - 1)
 			{
-				printf("¡á");
+				printf("â– ");
 			}
 		}
 	}
@@ -70,71 +70,71 @@ void DrawDiceSprite(int number)
 		// 1
 		case 0:
 			Gotoxy((CONSOLE_WIDTH >> 1) - 1, CONSOLE_HEIGHT >> 1);
-			printf("¡Û");
+			printf("â—‹");
 			
 			break;
 			
 		// 2
 		case 1:
 			Gotoxy((CONSOLE_WIDTH >> 2) - 1, CONSOLE_HEIGHT >> 2);
-			printf("¡Û");
+			printf("â—‹");
 			Gotoxy((CONSOLE_WIDTH >> 2) + (CONSOLE_WIDTH >> 1) - 1, (CONSOLE_HEIGHT >> 2) + (CONSOLE_HEIGHT >> 1));
-			printf("¡Û");
+			printf("â—‹");
 			
 			break;
 			
 		// 3
 		case 2:
 			Gotoxy((CONSOLE_WIDTH >> 2) - 1, CONSOLE_HEIGHT >> 2);
-			printf("¡Û");
+			printf("â—‹");
 			Gotoxy((CONSOLE_WIDTH >> 1) - 1, CONSOLE_HEIGHT >> 1);
-			printf("¡Û");
+			printf("â—‹");
 			Gotoxy((CONSOLE_WIDTH >> 2) + (CONSOLE_WIDTH >> 1) - 1, (CONSOLE_HEIGHT >> 2) + (CONSOLE_HEIGHT >> 1));
-			printf("¡Û");
+			printf("â—‹");
 			
 			break;
 			
 		// 4
 		case 3:
 			Gotoxy((CONSOLE_WIDTH >> 2) - 1, CONSOLE_HEIGHT >> 2);
-			printf("¡Û");
+			printf("â—‹");
 			Gotoxy((CONSOLE_WIDTH >> 2) + (CONSOLE_WIDTH >> 1) - 1, CONSOLE_HEIGHT >> 2);
-			printf("¡Û");
+			printf("â—‹");
 			Gotoxy((CONSOLE_WIDTH >> 2) - 1, (CONSOLE_HEIGHT >> 2) + (CONSOLE_HEIGHT >> 1));
-			printf("¡Û");
+			printf("â—‹");
 			Gotoxy((CONSOLE_WIDTH >> 2) + (CONSOLE_WIDTH >> 1) - 1, (CONSOLE_HEIGHT >> 2) + (CONSOLE_HEIGHT >> 1));
-			printf("¡Û");
+			printf("â—‹");
 			
 			break;
 		// 5
 		case 4:
 			Gotoxy((CONSOLE_WIDTH >> 1) - 1, CONSOLE_HEIGHT >> 1);
-			printf("¡Û");
+			printf("â—‹");
 			Gotoxy((CONSOLE_WIDTH >> 2) - 1, CONSOLE_HEIGHT >> 2);
-			printf("¡Û");
+			printf("â—‹");
 			Gotoxy((CONSOLE_WIDTH >> 2) + (CONSOLE_WIDTH >> 1) - 1, CONSOLE_HEIGHT >> 2);
-			printf("¡Û");
+			printf("â—‹");
 			Gotoxy((CONSOLE_WIDTH >> 2) - 1, (CONSOLE_HEIGHT >> 2) + (CONSOLE_HEIGHT >> 1));
-			printf("¡Û");
+			printf("â—‹");
 			Gotoxy((CONSOLE_WIDTH >> 2) + (CONSOLE_WIDTH >> 1) - 1, (CONSOLE_HEIGHT >> 2) + (CONSOLE_HEIGHT >> 1));
-			printf("¡Û");
+			printf("â—‹");
 			
 			break;
 			
 		// 6
 		case 5:
 			Gotoxy((CONSOLE_WIDTH >> 2) - 1, CONSOLE_HEIGHT >> 2);
-			printf("¡Û");
+			printf("â—‹");
 			Gotoxy((CONSOLE_WIDTH >> 2) + (CONSOLE_WIDTH >> 1) - 1, CONSOLE_HEIGHT >> 2);
-			printf("¡Û");
+			printf("â—‹");
 			Gotoxy((CONSOLE_WIDTH >> 2) - 1, CONSOLE_HEIGHT >> 1);
-			printf("¡Û");
+			printf("â—‹");
 			Gotoxy((CONSOLE_WIDTH >> 2) + (CONSOLE_WIDTH >> 1) - 1, CONSOLE_HEIGHT >> 1);
-			printf("¡Û");
+			printf("â—‹");
 			Gotoxy((CONSOLE_WIDTH >> 2) - 1, (CONSOLE_HEIGHT >> 2) + (CONSOLE_HEIGHT >> 1));
-			printf("¡Û");
+			printf("â—‹");
 			Gotoxy((CONSOLE_WIDTH >> 2) + (CONSOLE_WIDTH >> 1) - 1, (CONSOLE_HEIGHT >> 2) + (CONSOLE_HEIGHT >> 1));
-			printf("¡Û");
+			printf("â—‹");
 			
 			break;
 	}
