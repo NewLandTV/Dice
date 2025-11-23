@@ -4,6 +4,8 @@ Implement dice in console.
 
 콘솔로 구현한 주사위.
 
+[![Development Note p.202](https://img.youtube.com/vi/tB5hLum4Po0/0.jpg)](https://www.youtube.com/watch?v=tB5hLum4Po0)
+
 #### [EN]
 
 Q. How to run?
